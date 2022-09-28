@@ -136,6 +136,14 @@ color: olive;
 .footer {
    background-color: var(--primary-bc-color);
 }
+.logo1 {
+   color: var(--third-text-color);
+   font-family: Raleway, sans-serif;
+      text-decoration: none;
+      Font size: 26px;
+      Line height: 1, 2;
+      spacing: 3%
+}
 .footer-text {
    color: var(--third-text-color);
 }

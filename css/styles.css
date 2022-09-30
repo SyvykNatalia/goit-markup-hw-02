@@ -9,7 +9,7 @@
 --accent-color: #2196F3; }
 
 body {
-font-family: Robota, sans-serif;
+font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
 }
 header {
@@ -26,6 +26,7 @@ font-size: 16px;
  line-height: 1.9;
  display: flex;
 letter-spacing: 0.06em;
+font-weight: 700;
    
  }
  .button {
@@ -37,11 +38,12 @@ letter-spacing: 0.06em;
    color: black;
  }
  .site-nav .link1 {
-   color: var(--accent-color);
+   color: var(--primary-text-color);
    text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   font-weight: 500;
  
  }
  .site-nav .link1.current {
@@ -58,6 +60,7 @@ letter-spacing: 0.06em;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+   font-weight: 500;
    }
    .site-nav .link.current {
       color: var(--accent-color);
@@ -74,6 +77,7 @@ color: var(--accent-color)
    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   font-weight: 500;
  
 }
 .contacts .link1 {
@@ -82,6 +86,7 @@ color: var(--accent-color)
    font-size: 14px;
    line-height: 1.14;
     letter-spacing: 0.02em;
+   font-weight: 500;
    
 }
 .contacts .link1:hover,
@@ -118,6 +123,7 @@ color: var(--accent-color)
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+   font-weight: 900;
    }
 .section {
   background-color: var(--secondary-bc-color);
@@ -127,6 +133,7 @@ color: var(--accent-color)
   font-size: 14px;
    line-height: 1.14;
    text-transform: uppercase;
+   font-weight: 700;
     
 }
 .section-text {
@@ -143,21 +150,24 @@ color: var(--accent-color)
    font-size: 36px;
    line-height: 1.17;
    text-align: center;
-    
+   font-weight: 700;
+   text-align: center;
 }
 .section2-team {
    color: var(--primary-text-color);
   font-size: 16px;
    line-height: 1.19;
-   text-align: center;
+   font-weight: 500;
     
+}
+.section2-list > li {
+   background-color: var(--fourth-bc-color);
 }
 .section2-text {
    color: var(--secondary-text-color);
    font-size: 16px;
    line-height: 1.19;
-   text-align: center;
-    
+   
 }
 .footer {
    background-color: var(--primary-bc-color);
@@ -174,25 +184,32 @@ color: var(--accent-color)
    color: var(--third-text-color);
   font-size: 14px;
    line-height: 1.7;
+   font-style: normal;
    }
 .footer-mail {
-   color: var(--third-text-color);
+   color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.7;
+   text-decoration: none;
+   font-style: normal;
 
 }
 .footer-tel {
-   color: var(--third-text-color);
+   color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
    line-height: 1.7;
+   text-decoration: none;
+   font-style: normal;
+   
 }
 .footer-mail:hover,
 .footer-mail:focus {
-   color: #000;
+   color: var(--accent-color);
+  
 }
 .footer-tel:hover,
 .footer-tel:focus {
-   color: #000;
+   color: var(--accent-color)
 }
 .section3 {
    background-color: var(--secondary-bc-color);
@@ -217,14 +234,19 @@ font-family: inherit;
    background-color: var(--third-bc-color);
    font-size: 16px;
    line-height: 1.6;
-  
+   font-weight: 500;
+   }
+.section3-button:hover,
+.section3-button:focus {
+   color: var(--third-text-color);
+   background-color: var(--accent-color);
 }
 .section3-button1 {
    color: var(--third-text-color);
    background-color: var(--accent-color);
    font-size: 16px;
    line-height: 1.6;
-    
+   font-weight: 500;
 }
 .section3-title {
    color: var(--primary-text-color);
@@ -238,6 +260,9 @@ font-family: inherit;
    font-size: 16px;
    line-height: 1.9;
       }
+ 
+ 
+   
 .section3-link {
    text-decoration: none;
 }
